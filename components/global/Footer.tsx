@@ -7,7 +7,7 @@ type Props = {}
 export function Footer(props: Props) {
 
     return (
-        <footer className="flex flex-col">
+        <footer className="flex flex-col border-t-2 mt-6">
             <div className="flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 sm:gap-2 p-6">
                 <div className="sticky flex flex-col justify-center items-center sm:flex-row">
                     <ul className="flex flex-row gap-2 items-center">

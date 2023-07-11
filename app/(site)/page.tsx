@@ -16,11 +16,11 @@ export default function Home() {
               </Link>
           </p>
         </div>
-        <div className='p-4'>
+        <div className='p-8'>
           <Image src='/profile_picture.jpg'
             className=""
-            height={256}
-            width={256}
+            height={512}
+            width={512}
             alt={'Headshot of Caleb Bennetts'}
           />
         </div>
