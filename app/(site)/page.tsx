@@ -1,3 +1,4 @@
+import ContactForm from '@/components/shared/ContactForm'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -57,7 +58,10 @@ export default function Home() {
           </ul>
         </div>
       </section>
-
+      <section className='flex flex-col items-center pt-10'>
+          <h1 className='text-5xl font-extrabold tracking-widest p-8'>Contact Me</h1>
+        <ContactForm />
+      </section>
     </main>
   )
 }
