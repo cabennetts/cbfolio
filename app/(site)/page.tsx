@@ -12,7 +12,7 @@ export default function Home() {
 
           <p className='text-3xl p-4'>
             You can view my resume 
-            <Link href={'./Caleb_Bennetts_Resume.pdf'} className="font-bold text-blue-500">
+            <Link href={'./CB_Resume.pdf'} className="font-bold text-blue-500">
                 <strong className='pl-1 font-bold text-4xl'>here</strong>
               </Link>
           </p>
