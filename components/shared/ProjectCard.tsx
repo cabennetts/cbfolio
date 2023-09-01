@@ -23,15 +23,14 @@ const ProjectCard = ({ title, slug, description, image, alt }: Props) => {
                     <p className="text-lg pl-6 pb-6 text-zinc-400 md:text-xl">{description}</p>
                 )}
 
-                {/* INSERT DATE HERE */}
             </div>
 
             {image && (
                 <div className="object-contain p-6 md:p-0">
                     <Image 
                         src={image}
-                        width={400}
-                        height={400}
+                        width={300}
+                        height={300}
                         alt={alt}
                         
                     />

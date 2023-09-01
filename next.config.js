@@ -10,6 +10,12 @@ const nextConfig = {
             {
                 hostname: 'images.unsplash.com'
             },
+            {
+                protocol: 'https',
+                hostname: 'raw.githubusercontent.com',
+                port: '',
+                pathname: '/cabenetts/congenial-octo-happiness/main/images/**',
+            },
         ],
     }
 }

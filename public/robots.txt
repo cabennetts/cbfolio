@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.cabennetts.dev
+
+# Sitemaps
+Sitemap: https://www.cabennetts.dev/sitemap.xml
