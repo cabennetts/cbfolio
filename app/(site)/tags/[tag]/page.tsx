@@ -3,8 +3,7 @@ import ListItem from "@/components/blog/ListItem"
 import Link from "next/link"
 import { Separator } from "@/components/ui/separator"
 
-// export const revalidate = 86400
-export const revalidate = 10
+export const revalidate = 86400
 
 type Props = {
     params: {

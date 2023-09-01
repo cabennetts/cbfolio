@@ -5,14 +5,8 @@ import { notFound } from 'next/navigation';
 import getFormattedDate from "@/lib/getFormattedDate";
 import { Separator } from "@/components/ui/separator";
 import ShareBtn from "@/components/shared/ShareBtn";
-// import { getBlogPost } from "@/sanity/sanity-utils";
-// import Image from "next/image";
-// import { PortableText } from "@portabletext/react";
-// import { RichTextComponents } from "@/components/shared/RichTextComponent";
-// import ShareBtn from "@/components/shared/ShareBtn";
-// import { Separator } from "@/components/ui/separator";
 
-export const revalidate = 10
+export const revalidate = 86400
 
 type Props = {
     params: {

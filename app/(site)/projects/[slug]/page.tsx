@@ -6,10 +6,9 @@ import { PortableText } from "@portabletext/react";
 import { RichTextComponents } from "@/components/shared/RichTextComponent";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import ShareBtn from "@/components/shared/ShareBtn";
 
-export const revalidate = 30
+export const revalidate = 86400
 
 type Props = {
   params: {slug: string}

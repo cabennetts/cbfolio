@@ -2,7 +2,7 @@ import React from 'react'
 import Posts from '@/components/blog/Posts'
 import 'highlight.js/styles/devibeans.css'
 import { Separator } from '@/components/ui/separator'
-export const revalidate = 15
+export const revalidate = 86400
 export const metadata = {
   title: "Blog | Caleb Bennetts",
   description: "Blog Posts Written by Caleb",
