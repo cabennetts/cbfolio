@@ -14,7 +14,7 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'raw.githubusercontent.com',
                 port: '',
-                pathname: '/cabenetts/congenial-octo-happiness/main/images/**',
+                pathname: '/cabennetts/congenial-octo-happiness/main/images/**',
             },
         ],
     }

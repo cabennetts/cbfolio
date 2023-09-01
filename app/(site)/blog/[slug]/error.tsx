@@ -16,7 +16,7 @@ export default function Error({
     }, [error]);
 
     return (
-        <main>
+        <main className="content__main">
             <h2>Something went wrong!</h2>
             <button onClick={
                 //attempt to recover by trying to re-render the segment

@@ -1,5 +1,4 @@
 import React from 'react'
-import BlogPostCard from '@/components/shared/BlogPostCard'
 import Posts from '@/components/blog/Posts'
 import 'highlight.js/styles/devibeans.css'
 import { Separator } from '@/components/ui/separator'
@@ -10,7 +9,6 @@ export const metadata = {
 }
 
 export default async function BlogPage() {
-
 
   return (
     <main className="content__main">
