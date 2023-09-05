@@ -1,8 +1,8 @@
 import { BlogPost, Meta } from '@/types'
 import { compileMDX } from 'next-mdx-remote/rsc'
-import rehypeSlug from 'rehype-slug'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings/lib'
 import rehypeHighlight from 'rehype-highlight/lib'
+import rehypeSlug from 'rehype-slug'
 import Video from '@/components/blog/Video'
 import CustomImage from '@/components/blog/CustomImage'
 
@@ -32,7 +32,8 @@ export async function getPostByName(fileName: string): Promise<BlogPost | undefi
     const { frontmatter, content } = await compileMDX<{ title: string, date: string, tags: string[] }>({
         source: rawMDX,
         components: {
-            Video, CustomImage
+            Video,
+            CustomImage,
         },
         options: {
             parseFrontmatter: true,

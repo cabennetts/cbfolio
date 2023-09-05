@@ -1,4 +1,3 @@
-import { Metadata } from "next";
 import Link from "next/link";
 import { getPostByName, getPostsMeta } from "@/lib/posts";
 import { notFound } from 'next/navigation';
