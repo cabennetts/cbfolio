@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import getFormattedDate from "@/lib/getFormattedDate";
 import { Separator } from "@/components/ui/separator";
 import ShareBtn from "@/components/shared/ShareBtn";
+import { MDXRemote } from "next-mdx-remote/rsc";
 
 export const revalidate = 86400
 
@@ -43,7 +44,7 @@ export default async function Post({ params: { slug } }: Props) {
     if (!post) notFound()
 
     const { meta, content } = post
-
+    console.log(content)
     const pubDate = getFormattedDate(meta.date)
 
     const tags = meta.tags.map((tag, i) => (
@@ -61,7 +62,7 @@ export default async function Post({ params: { slug } }: Props) {
                 <Separator color="bg-white" className="my-6"/>
 
                 <article>
-                    {content}
+                  {content}
                 </article>
                 
                 <Separator color="bg-white" className="my-6"/>

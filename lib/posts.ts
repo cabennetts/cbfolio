@@ -26,7 +26,6 @@ export async function getPostByName(fileName: string): Promise<BlogPost | undefi
     if (!res.ok) return undefined
 
     const rawMDX = await res.text()
-
     if (rawMDX === '404: Not Found') return undefined
 
     const { frontmatter, content } = await compileMDX<{ title: string, date: string, tags: string[] }>({
@@ -50,6 +49,7 @@ export async function getPostByName(fileName: string): Promise<BlogPost | undefi
     })
 
     const id = fileName.replace(/\.mdx$/, '')
+    
     const blogPostObj: BlogPost = { meta: { id, title: frontmatter.title, date: frontmatter.date, tags: frontmatter.tags }, content}
 
     return blogPostObj
