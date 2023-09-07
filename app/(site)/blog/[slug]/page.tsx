@@ -6,7 +6,8 @@ import { Separator } from "@/components/ui/separator";
 import ShareBtn from "@/components/shared/ShareBtn";
 import { MDXRemote } from "next-mdx-remote/rsc";
 
-export const revalidate = 86400
+// export const revalidate = 86400
+export const revalidate = 0
 
 type Props = {
     params: {
@@ -14,15 +15,15 @@ type Props = {
     }
 }
 
-export async function generateStaticParams() {
-    const posts = await getPostsMeta() // deduped!
+// export async function generateStaticParams() {
+//     const posts = await getPostsMeta() // deduped!
     
-    if (!posts) return []
+//     if (!posts) return []
 
-    return posts.map((post) => ({
-        slug: post.id
-    }))
-}
+//     return posts.map((post) => ({
+//         slug: post.id
+//     }))
+// }
 
 export async function generateMetadata({ params: { slug } }: Props) {
     const post = await getPostByName(`${slug}.mdx`) // deduped!
@@ -48,15 +49,15 @@ export default async function Post({ params: { slug } }: Props) {
     const pubDate = getFormattedDate(meta.date)
 
     const tags = meta.tags.map((tag, i) => (
-        <Link key={i} href={`/tags/${tag}`}>{tag}</Link>
+        <Link key={i} href={`/tags/${tag}`}>#{tag}</Link>
     ))
 
     return (
         <>
             <main className="content__main">
                 <section className="mb-4">
-                    <h1 className="text-5xl font-bold row-span-2 p-6 cursor-pointer tracking-wider md:text-5xl md:col-span-2"> {meta.title} </h1>
-                    <p className="px-6 text-sm"> {pubDate} </p>
+                    <h1 className="text-5xl font-bold row-span-2 p-6 cursor-pointer tracking-wider md:text-5xl md:col-span-2 md:p-0"> {meta.title} </h1>
+                    <p className="p-4 text-sm">📅 {pubDate} </p>
                 </section>
                 
                 <Separator color="bg-white" className="my-6"/>

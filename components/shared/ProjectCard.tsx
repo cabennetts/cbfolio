@@ -32,7 +32,6 @@ const ProjectCard = ({ title, slug, description, image, alt }: Props) => {
                         width={300}
                         height={300}
                         alt={alt}
-                        
                     />
                 </div>
             )}

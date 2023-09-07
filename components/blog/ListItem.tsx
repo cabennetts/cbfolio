@@ -12,7 +12,7 @@ export default function ListItem({ post }: Props) {
         <li className="py-2">
             <Link className="text-3xl font-bold " href={`/blog/${id}`}>{title}</Link>
             <br />
-            <p className="text-lg text-gray-300"> {date}</p>
+            <p className="text-lg text-gray-300">📅 {date}</p>
         </li>
     )
 }

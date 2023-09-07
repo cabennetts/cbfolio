@@ -8,7 +8,8 @@ import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 import ShareBtn from "@/components/shared/ShareBtn";
 
-export const revalidate = 86400
+export const revalidate = 0
+// export const revalidate = 86400
 
 type Props = {
   params: {slug: string}
