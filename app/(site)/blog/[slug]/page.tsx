@@ -6,8 +6,8 @@ import { Separator } from "@/components/ui/separator";
 import ShareBtn from "@/components/shared/ShareBtn";
 import { MDXRemote } from "next-mdx-remote/rsc";
 
-// export const revalidate = 86400
-export const revalidate = 0
+export const revalidate = 86400
+// export const revalidate = 0
 
 type Props = {
     params: {
@@ -15,15 +15,15 @@ type Props = {
     }
 }
 
-// export async function generateStaticParams() {
-//     const posts = await getPostsMeta() // deduped!
+export async function generateStaticParams() {
+    const posts = await getPostsMeta() // deduped!
     
-//     if (!posts) return []
+    if (!posts) return []
 
-//     return posts.map((post) => ({
-//         slug: post.id
-//     }))
-// }
+    return posts.map((post) => ({
+        slug: post.id
+    }))
+}
 
 export async function generateMetadata({ params: { slug } }: Props) {
     const post = await getPostByName(`${slug}.mdx`) // deduped!
@@ -62,8 +62,8 @@ export default async function Post({ params: { slug } }: Props) {
                 
                 <Separator color="bg-white" className="my-6"/>
 
-                <article>
-                  {content}
+                <article className="prose prose-gray prose-invert lg:prose-xl">
+                {content}
                 </article>
                 
                 <Separator color="bg-white" className="my-6"/>

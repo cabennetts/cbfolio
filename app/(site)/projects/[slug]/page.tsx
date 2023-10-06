@@ -8,38 +8,38 @@ import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 import ShareBtn from "@/components/shared/ShareBtn";
 
-export const revalidate = 0
-// export const revalidate = 86400
+// export const revalidate = 0
+export const revalidate = 86400
 
 type Props = {
   params: {slug: string}
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  try {
+    try {
       
-      const slug = params.slug    
-      const metapost = await getProject(slug)
-      console.log(slug)
-      if(!metapost) return {
-          title: "Not Found",
-          description: "The page you are looking for does not exist.",
-      }
-      return {
-          title: metapost.title,
-          description: metapost.description,
-          alternates: {
-              canonical: `/projects/${slug}`
-          },
-          
-      }
-  } catch (error) {
-      console.error(error)
-      return {
-          title: "Not Found",
-          description: "The page you are looking for does not exist.",
-      }
-  }
+        const slug = params.slug    
+        const metapost = await getProject(slug)
+        console.log(slug)
+        if(!metapost) return {
+            title: "Not Found",
+            description: "The page you are looking for does not exist.",
+        }
+        return {
+            title: metapost.title,
+            description: metapost.description,
+            alternates: {
+                canonical: `/projects/${slug}`
+            },
+            
+        }
+    } catch (error) {
+        console.error(error)
+        return {
+            title: "Not Found",
+            description: "The page you are looking for does not exist.",
+        }
+    }
 }
 
 export default async function Project({ params }: Props) {
