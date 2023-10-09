@@ -4,7 +4,6 @@ import { notFound } from 'next/navigation';
 import getFormattedDate from "@/lib/getFormattedDate";
 import { Separator } from "@/components/ui/separator";
 import ShareBtn from "@/components/shared/ShareBtn";
-import { MDXRemote } from "next-mdx-remote/rsc";
 
 export const revalidate = 86400
 // export const revalidate = 0

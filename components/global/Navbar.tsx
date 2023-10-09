@@ -19,12 +19,14 @@ export function Navbar(props: Props) {
                 <div className="flex justify-between w-full">                
                     <div className="md:flex-[0.5] self-center justify-end">
                         <Link href="/" className="cursor-pointer">
-                            <Image
+                            {/* <Image
                                 src="/cb.png"
                                 alt="logo"
                                 width={64}
                                 height={64}
-                            />
+                            /> */}
+                            <h1 className='font-supreme font-normal m-2 p-2 text-3xl outline outline-1 outline-theme-primary text-theme-text md:text-4xl'>CABENNETTS</h1>
+
                         </Link>
                     </div>
                     

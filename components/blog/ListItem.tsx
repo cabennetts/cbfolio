@@ -1,18 +1,19 @@
 import { Meta } from "@/types";
 import Link from "next/link";
+import { Separator } from "../ui/separator";
 
 type Props = {
     post: Meta
 }
 
 export default function ListItem({ post }: Props) {
-    const { id, title, date } = post
+    const { id, title, date, description } = post
     
     return (
-        <li className="py-2">
-            <Link className="text-3xl font-bold " href={`/blog/${id}`}>{title}</Link>
-            <br />
-            <p className="text-lg text-gray-300">📅 {date}</p>
+        <li className="pb-6">
+            <p className="text-lg text-gray-300">{date}</p>
+            <Link className="text-3xl font-bold text-theme-primary" href={`/blog/${id}`}>{title}</Link>
+            <p>{description}</p>
         </li>
     )
 }

@@ -2,8 +2,6 @@
 
 import React from "react";
 import { FaLink } from "react-icons/fa"
-import Link from "next/link"
-import ReactDOM from 'react-dom';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import toast from "react-hot-toast";
 import { Toaster } from "react-hot-toast";

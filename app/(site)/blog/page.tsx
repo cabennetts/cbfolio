@@ -1,7 +1,7 @@
 import React from 'react'
 import Posts from '@/components/blog/Posts'
 import 'highlight.js/styles/devibeans.css'
-import { Separator } from '@/components/ui/separator'
+import PageTitle from '@/components/global/PageTitle'
 // export const revalidate = 0
 export const revalidate = 86400
 export const metadata = {
@@ -13,10 +13,8 @@ export default async function BlogPage() {
 
   return (
     <main className="content__main">
-      <h1 className='text-5xl font-extrabold tracking-widest p-8'>Blog</h1>
-      <Separator color="bg-white" className="my-6"/>
+      <PageTitle title="Blog" />
       <Posts />
-      
     </main>
   )
 }

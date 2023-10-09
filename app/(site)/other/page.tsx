@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import getAllImages from "@/lib/getUnsplashImages";
 import { UnsplashImage } from '@/types/UnsplashImage';
-import { Separator } from '@/components/ui/separator';
+import PageTitle from '@/components/global/PageTitle';
 
 export const metadata: Metadata = {
   title: 'Other | Caleb Bennetts',
@@ -39,8 +39,9 @@ export default async function OtherPage() {
   
   return (
     <main className="content__main">
-      <h1 className='text-5xl font-extrabold tracking-widest p-8'> Other</h1>
-      <Separator color="bg-white" className="my-6"/>
+      <PageTitle 
+        title="Other"   
+      />
       <div className='grid auto-rows-auto grid-cols-2 items-center md:grid-cols-3'>
       {images3.map(image => {
           return (    

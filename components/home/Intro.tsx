@@ -7,11 +7,11 @@ export default function Intro() {
         <section className='flex flex-col-reverse md:flex-row md:justify-between mb-12'>
             <div>
             <h1 className='text-7xl tracking-wider p-4'> Caleb Bennetts</h1>
-            <h3 className='text-5xl font-bold tracking-wide p-4'>Software Engineer</h3>
+            <h3 className='text-5xl text-primary font-bold tracking-wide p-4'>Software Engineer</h3>
 
             <p className='text-3xl p-4'>
                 You can view my resume 
-                <Link href={'./Caleb_Bennetts_Resume.pdf'} className="font-bold text-blue-500">
+                <Link href={'./Caleb_Bennetts_Resume.pdf'} className="font-bold text-secondary">
                     <strong className='pl-1 font-bold text-4xl'>here</strong>
                 </Link>
             </p>

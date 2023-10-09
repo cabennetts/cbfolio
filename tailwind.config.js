@@ -16,11 +16,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        'text': '#ffffff',
-        'background': '#000000',
-        'primary': '#98dddd',
-        'secondary': '#235615',
-        'accent': '#78c12f',
+        theme: {
+          text: '#ffffff',
+          background: '#000000',
+          primary: '#006E9C',
+          secondary: '#235615',
+          accent: '#78c12f',
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -112,6 +114,12 @@ module.exports = {
           },
         },
       }),
+      fontFamily: {
+        "ranade": "var(--font-ranade)",
+        "supreme": "var(--font-supreme)",
+        "supreme-italic": "var(--font-supreme-italic)",
+        "switzer": "var(--font-switzer)",
+      }
     },
   },
   plugins: [
