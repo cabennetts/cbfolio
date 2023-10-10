@@ -9,8 +9,7 @@ type Props = {}
 export function Footer(props: Props) {
 
     return (
-        <footer className=" bg-black text white flex flex-col gap-6 border-t-2 p-6 border-theme-primary">
-            {/* <div className="flex flex-row justify-between gap-5 sm:px-16 sm:gap-2 p-6"> */}
+        <footer className="bg-theme-background flex flex-col gap-6 border-t-2 p-6 border-theme-primary">
                 <div className="sticky flex flex-col justify-center items-center sm:flex-row">
                     <ul className="flex flex-row gap-2 text-xl items-center font-switzer font-medium uppercase">
                         <li>
@@ -50,7 +49,6 @@ export function Footer(props: Props) {
                     <p>Caleb Bennetts | cabennetts</p>
                     <p>© 2021-Present Caleb Bennetts. All Rights Reserved.</p>
                 </div>
-            {/* </div> */}
         </footer>
     )
 }

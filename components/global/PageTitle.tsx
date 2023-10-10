@@ -8,8 +8,8 @@ type Props = {
 function PageTitle({title}: Props) {
     return (
         <>
-            <h1 className='text-5xl font-extrabold tracking-widest py-8'>{title}</h1>
-            <Separator  className="mb-6 bg-theme-primary"/>
+            <h1 className='text-5xl font-supreme font-bold tracking-widest py-8'>{title}</h1>
+            {/* <Separator  className="mb-6 bg-theme-primary"/> */}
         </>
     )
 }

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://www.cabennetts.dev/other</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/projects</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/blog</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/blog/dry</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/blog/life-cycle-models</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/blog/rendering-patterns</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/blog/well-structured-api</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/blog/seeding</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/blog/socialdbmodeling</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/web dev</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/explained</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/dry</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/development</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/life cycle</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/API</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/prisma</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/next.js</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/postgres</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/docker</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/typescript</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/database</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/php</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.cabennetts.dev/tags/mysql</loc><lastmod>2023-10-09T22:23:47.624Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/projects</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/other</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/blog</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/blog/dry</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/blog/life-cycle-models</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/blog/rendering-patterns</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/blog/well-structured-api</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/blog/seeding</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/blog/socialdbmodeling</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/web dev</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/explained</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/dry</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/development</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/life cycle</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/API</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/prisma</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/next.js</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/postgres</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/docker</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/typescript</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/database</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/php</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.cabennetts.dev/tags/mysql</loc><lastmod>2023-10-10T06:04:50.372Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

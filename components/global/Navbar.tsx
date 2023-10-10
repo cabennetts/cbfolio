@@ -7,6 +7,7 @@ import { useState } from "react"
 import { FaBars } from 'react-icons/fa'
 import { AiOutlineClose } from 'react-icons/ai'
 import { Button } from "../ui/button"
+import { Separator } from "../ui/separator"
 
 type Props = {}
 
@@ -16,21 +17,14 @@ export function Navbar(props: Props) {
     return (
         <header className="w-full absolute z-10">
             <nav className="w-full flex justify-between items-center md:items-center p-4 px-6 py-4 sm:px-16 md:px-24">         
-                <div className="flex justify-between w-full">                
-                    <div className="md:flex-[0.5] self-center justify-end">
+                <div className="flex flex-row justify-between w-screen">                
+                    <div className="self-center justify-end">
                         <Link href="/" className="cursor-pointer">
-                            {/* <Image
-                                src="/cb.png"
-                                alt="logo"
-                                width={64}
-                                height={64}
-                            /> */}
                             <h1 className='font-supreme font-normal m-2 p-2 text-3xl outline outline-1 outline-theme-primary text-theme-text md:text-4xl'>CABENNETTS</h1>
-
                         </Link>
                     </div>
-                    
-                    <div className="hidden md:flex justify-end">
+                        <Separator className="bg-theme-primary w-fit"/>
+                    <div className="hidden md:flex justify-end font-switzer font-medium uppercase">
                         <ul className="flex flex-row gap-2 items-center ">
                             <li>
                                 <Button asChild variant="link" className="text-white text-2xl">

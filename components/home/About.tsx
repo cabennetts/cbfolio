@@ -1,8 +1,8 @@
 export default function About() {
     return (
         <section>
-            <p className="text-xl">
-                <strong className="animate-bounce">👋🏼</strong> Hello! I&apos;m Caleb, a computer science enthusiast with a Bachelor&apos;s Degree in Computer Science and interests in full-stack development, Machine Learning, Artificial Intelligence, and Data Science.
+            <p className="font-supreme font-normal text-xl">
+                <strong className=" animate-bounce">👋🏼</strong> Hello! I&apos;m Caleb, a computer science enthusiast with a Bachelor&apos;s Degree in Computer Science and interests in full-stack development, Machine Learning, Artificial Intelligence, and Data Science.
                 <br/><br/>
                 📚 My educational journey has equipped me with a strong foundation in computer science, and I&apos;ve further enriched my knowledge through notable courses such as Database Systems (providing expertise in relational databases), Machine Learning (deepening my understanding of various models and their capabilities), Artificial Intelligence, Interdisciplinary Collaborations (providing professional experience in multidisciplinary teamwork), and Software Engineering.
                 <br/><br/>

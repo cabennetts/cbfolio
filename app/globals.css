@@ -81,7 +81,7 @@ body {
 
 
 .content__main {
-  @apply bg-theme-background text-theme-text flex flex-col min-h-screen pt-24 p-4 sm:p-8 sm:pt-24 md:p-16 md:pt-24 lg:px-48 lg:pt-24
+  @apply bg-theme-background text-theme-text flex flex-col min-h-screen pt-24 p-4 sm:p-8 sm:pt-24 md:p-16 md:pt-24 lg:px-40 lg:pt-24
 }
 
 /* @layer base {
@@ -99,4 +99,18 @@ body {
     --secondary: #235615;
     --accent: #78c12f;
   }
+
+  # Light
+'text': 'hsl(90, 25%, 3%)',
+'background': 'hsl(0, 0%, 100%)',
+'primary': 'hsl(198, 100%, 69%)',
+'secondary': 'hsl(107, 61%, 79%)',
+'accent': 'hsl(90, 61%, 53%)',
+
+  # Dark
+'text': 'hsl(0, 0%, 100%)',
+'background': 'hsl(0, 0%, 0%)',
+'primary': 'hsl(198, 100%, 31%)',
+'secondary': 'hsl(107, 61%, 21%)',
+'accent': 'hsl(90, 61%, 47%)',
 } */

@@ -8,9 +8,9 @@ import { BiBrain } from 'react-icons/bi'
 export default function Skills() {
     return (
         <section>
-            <h3 className='text-5xl font-bold tracking-wide p-4'>What I bring to the table</h3>
+            <h3 className='text-5xl font-ranade font-normal tracking-wide py-4'>What I bring to the table</h3>
             
-            <div className="grid grid-cols-2 auto-rows-fr gap-6">
+            <div className="font-supreme grid grid-cols-2 auto-rows-fr gap-6">
                 <div className="p-4 bg-theme-secondary rounded-xl ">
                     <h2 className="text-xl font-bold flex items-center gap-2"><RiComputerLine className="text-theme-accent"/>Front End</h2>
                     <Separator className="bg-theme-background mt-2"/>
@@ -23,7 +23,7 @@ export default function Skills() {
                     </ul>
                 </div>
                 <div className="p-4 bg-theme-secondary rounded-xl ">
-                    <h2 className="text-xl font-bold flex items-center gap-2"><VscServerProcess className="text-theme-accent"/> Back End</h2>
+                    <h2 className="text-xl font-bold flex items-center gap-2"><VscServerProcess className="text-theme-accent"/>Back End</h2>
                     <Separator className="bg-theme-background mt-2"/>
                     <ul className="list-disc p-4">
                         <li>Node.js</li>
