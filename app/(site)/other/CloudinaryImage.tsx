@@ -13,3 +13,17 @@ export default function CloudinaryImage({publicId}: {publicId: string}) {
         />
     )
 }
+
+
+// export default function CloudinaryImage(props: any & SearchResults) {
+
+//     const { imageData } = props
+
+//     const isFavorited = imageData.tags.includes('favorite')
+//     return (
+//             <CldImage 
+//                 {...props} 
+//                 src={imageData.public_id} 
+//             />
+//     )
+// }

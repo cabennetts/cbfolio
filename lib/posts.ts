@@ -31,7 +31,7 @@ export async function getPostByName(fileName: string): Promise<BlogPost | undefi
 
     const { frontmatter, content } = await compileMDX<{
         title: string, date: string, description: string, tags: string[] 
-}>({
+    }>({
         source: rawMDX,
         components: {
             Video,
